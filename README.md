@@ -6,6 +6,10 @@ This project demonstrates how to deploy a static website using AWS S3 for storag
 
 ## Architecture Overview
 
+<div align="center">
+  <img src="Static%20Website%20with%20S3%20%2B%20CloudFront%20%2B%20Cloudflare.drawio.svg" alt="Architecture Diagram" width="800"/>
+</div>
+
 - **S3 Bucket:** Stores static website files (HTML, CSS, JS, images, PDFs).
 - **CloudFront:** Distributes content globally, provides HTTPS, and caches content for performance.
 - **Cloudflare:** Manages DNS, provides additional CDN/security features, and handles your custom domain.
