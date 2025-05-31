@@ -67,7 +67,7 @@ This project demonstrates how to deploy a static website using AWS S3 for storag
 - **Origin Request Policy:** `Managed-CORS-S3Origin` (if using CORS).
 
 #### 2.4 Distribution Settings
-- **Alternate Domain Name (CNAME):** e.g., `https:test.domain.com`
+- **Alternate Domain Name (CNAME):** e.g., `https:www.test.domain.com`
 - **SSL Certificate:** Request a public certificate in ACM (use DNS validation).
 - **Default Root Object:** `index.html`
 - **Price Class:** Choose as needed.
@@ -106,7 +106,7 @@ This project demonstrates how to deploy a static website using AWS S3 for storag
 
 ### 5. Final Testing
 
-- Visit your custom domain (e.g., `https:test.domain.com`).
+- Visit your custom domain (e.g., `https:www.test.domain.com`).
 - Confirm:
   - Fast loading via CloudFront
   - HTTPS is working
